@@ -3,6 +3,8 @@ import LoadingScreen from "./components/LoadingScreen";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Skills from "./components/Skills";
+import Projects from "./components/Project";
 
 function App() {
   const [isLoading,setIsLoading] = useState(true);
@@ -25,6 +27,8 @@ function App() {
     <main>
       <Hero />
       <About/>
+      <Skills/>
+      <Projects />
     </main>
 
     </div>
