@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 
+
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,6 +18,7 @@ const Header: React.FC = () => {
   const navItems = [
     { href: "#about", label: "About" },
     { href: "#skills", label: "Skills" },
+    { href: "#projects", label: "Projects" },
     { href: "#certificates", label: "Certificates" },
     { href: "#contact", label: "Contact" },
   ];
@@ -30,7 +32,7 @@ const Header: React.FC = () => {
       <nav className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-xl font-semibold text-slate-800 hover:text-blue-600 transition-colors">
-            Portfolio
+            PORTFOLIO
           </div>
 
           {/*desktop navbar*/}

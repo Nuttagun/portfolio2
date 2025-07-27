@@ -3,7 +3,7 @@ import { User, Code, Heart } from "lucide-react";
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="py-20 bg-white">
+    <section id="about" className="py-20 bg-gray-50">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-light text-slate-800 mb-4">About Me</h2>
@@ -11,8 +11,8 @@ const About: React.FC = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="spae-y-6">
-            <div className="bg-gradient-to-br from-slate-100 to-blue-50 p-8 rounded-2xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 mb-5">
+          <div className="space-y-6">
+            <div className="bg-white p-8 rounded-2xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 mb-5">
               <User className="text-blue-600 mb-4 " size={32} />
               <h3 className="text-xl font-semibold text-slate-800 mb-3">
                 Who I Am
@@ -34,7 +34,7 @@ const About: React.FC = () => {
               </p>
             </div>
 
-            <div className="bg-gradient-to-br from-slate-100 to-blue-50 p-8 rounded-2xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+            <div className="bg-white p-8 rounded-2xl hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
               <Code className="text-blue-600 mb-4" size={32} />
               <h3 className="text-xl font-semibold text-slate-800 mb-3">
                 What I Do
@@ -50,7 +50,7 @@ const About: React.FC = () => {
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-blue-50 to-slate-50 p-12 rounded-3xl hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+          <div className="bg-white p-12 rounded-3xl hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
             <Heart className="text-red-500 mb-6 mx-auto" size={48} />
             <h3 className="text-2xl font-semibold text-slate-800 mb-6 text-center">
               Passion & Purpose
